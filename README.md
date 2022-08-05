@@ -76,7 +76,7 @@ SHOW DATABASES
 ## Create Database
 
 ```sql
-CREATE DATABASE acme;
+CREATE DATABASE somename;
 //OR
 CREATE SCHEMA `global_jobs` DEFAULT CHARACTER SET utf8 ;
 ```
@@ -84,13 +84,13 @@ CREATE SCHEMA `global_jobs` DEFAULT CHARACTER SET utf8 ;
 ## Delete Database
 
 ```sql
-DROP DATABASE acme;
+DROP DATABASE somename;
 ```
 
 ## Select Database
 
 ```sql
-USE acme;
+USE somename;
 ```
 
 ## Create Table
