@@ -77,6 +77,8 @@ SHOW DATABASES
 
 ```sql
 CREATE DATABASE acme;
+//OR
+CREATE SCHEMA `global_jobs` DEFAULT CHARACTER SET utf8 ;
 ```
 
 ## Delete Database
